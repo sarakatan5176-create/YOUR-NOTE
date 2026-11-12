@@ -1,0 +1,80 @@
+.order-section {
+    max-width: 750px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #E8EFE5;
+    border-radius: 18px;
+}
+
+.order-section h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.order-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.order-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 18px;
+    color: #294B3A;
+}
+
+.order-section input,
+.order-section select,
+.order-section textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #B8CBBB;
+    border-radius: 8px;
+    background-color: #F7F6EF;
+    color: #294B3A;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.order-section input:focus,
+.order-section select:focus,
+.order-section textarea:focus {
+outline: none;
+border: 2px solid #789B83;
+transition: 0.2s;
+}
+
+.order-section button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #294B3A;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 15px 8px 0 0;
+}
+
+.order-section button:hover {
+    background-color: #789B83;
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+    .order-section{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .order-section h1 {
+        font-size: 26px;
+    }
+    .order-section button {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+}

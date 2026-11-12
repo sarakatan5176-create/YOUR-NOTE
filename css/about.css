@@ -1,0 +1,49 @@
+.about-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.about-section {
+    background-color:#E8EFE5;
+    width: 85%;
+    margin: 25px auto;
+    padding: 20px 5%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.7;
+}
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    color:#294B3A ;
+}
+.about-section h2 {
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.about-section p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 6px;
+    color: #294B3A;
+}
+.about-section li {
+    background-color:#DDE8DC ;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 19px;
+}
+@media (max-width: 768px) {
+    .about-section{
+        width: 94%;
+        padding: 15px 4%;
+    }
+    .about-section ul{
+        gap: 12px;
+    }
+}

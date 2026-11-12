@@ -1,0 +1,156 @@
+.instrument-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    max-width: 950px;
+    margin: 35px auto 0;
+}
+
+.instrument-card {
+    background-color: #E8EFE5;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.35s;
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+.instrument-card a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #294B3A;
+    display: block;
+    text-decoration: none;
+}
+
+.instrument-card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.instrument-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.instruments-intro h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.instruments-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.instrument-group,
+.accessories-products,
+.courses-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 950px;
+    margin: 35px auto 0;
+}
+
+.instrument-group h2,
+.accessories-products h1 ,
+.courses-products h1{
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.instrument-category,
+.accessory-card ,
+.course-card{
+    background-color: #F0EDE2;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 280px;
+    transition: 0.3s;
+}
+
+.instrument-category img,
+.accessory-card img ,
+.course-card img{
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    object-fit: contain;
+}
+
+.instrument-category h3,
+.accessory-card h3,
+.course-card h3 {
+    font-size: 21px;
+    color: #294B3A;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.instrument-category p,
+.accessory-card p ,
+.course-card p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #294B3A;
+    margin-bottom: 15px;
+}
+
+.instrument-category a,
+.accessory-card a ,
+.course-card a{
+    display: inline-block;
+    background-color: #294B3A;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.instrument-category a:hover,
+.accessory-card a:hover ,
+.course-card a:hover{
+    background-color: #789B83;
+    color: white;
+}
+
+.instrument-category:hover,
+.accessory-card:hover ,
+.course-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+    .instrument-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .instrument-category,
+    .instrument-card,
+    .accessory-card ,
+    .course-card{
+        width: 260px;
+    }
+
+    .instrument-group,
+    .accessories-products,
+     .courses-products{
+        gap: 18px;
+    }
+}

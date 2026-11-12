@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הזמנה | YOUR NOTE</title>
+
+    <link rel="icon" href="../assets/files/images/Icon.jpg">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="../index.html">YOUR NOTE</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">דף הבית</a></li>
+                <li><a href="about.html">אודות</a></li>
+                <li><a href="instruments.html">כלי נגינה</a></li>
+                <li><a href="accessories.html">אביזרים</a></li>
+                <li><a href="courses.html">קורסים</a></li>
+                <li><a href="order.html">הזמנה</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<section class="order-section">
+    <h1>ביצוע הזמנה</h1>
+    <p>שמחים שבחרתם ב-YOUR NOTE! מלאו את פרטי ההזמנה ונחזור אליכם בהקדם.</p>
+    <form action="success.html" method="get">
+<label for="full-name">שם מלא:</label>
+<input type="text" id="full-name" name="full-name" required>    
+<label for="phone">מספר טלפון:</label>
+<input type="tel" id="phone" name="phone" required>
+<label for="email">כתובת דוא"ל:</label>
+<input type="email" id="email" name="email" required>
+    <label for="category">סוג ההזמנה:</label>
+    <select id="category" name="category" required>
+    <option value="instruments">כלי נגינה</option>
+    <option value="accessories">אביזרים</option>
+    <option value="courses">קורסים</option>
+    </select>
+    <label for="product">שם המוצר או הקורס:</label>
+    <input type="text" id="product" name="product" required>
+    <label for="quantity">כמות:</label>
+    <input type="number" id="quantity" name="quantity" min="1" required>
+    <label for="notes">הערות נוספות:</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+    <label for="payment">אמצעי תשלום:</label>
+    <select id="payment" name="payment" required>
+    <option value="credit">כרטיס אשראי</option>
+    <option value="cash">תשלום בעת קבלה</option>
+    </select>
+    <div class="payment-demo">
+        <h2>פרטי תשלום</h2>
+        <label for="card-demo">מספר אשראי</label>
+<input type="text" id="card-demo" name="card-demo" placeholder="XXXXXXXXXXXXXXXX">
+<label for="expiry-month">חודש תוקף:</label>
+<select id="expiry-month" name="expiry-month" required>
+    <option value="">בחרו חודש</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+    <option value="08">08</option>
+    <option value="09">09</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+</select>
+
+<label for="expiry-year">שנת תוקף:</label>
+<select id="expiry-year" name="expiry-year" required>
+    <option value="">בחרו שנה</option>
+    <option value="2027">2027</option>
+    <option value="2028">2028</option>
+    <option value="2029">2029</option>
+    <option value="2030">2030</option>
+    <option value="2031">2031</option>
+    <option value="2032">2032</option>
+    <option value="2033">2033</option>
+</select>    <button type="submit">שליחת הזמנה</button>
+    <button type="reset">איפוס הטופס</button>
+</form>
+</section>
+    </main>
+
+            <footer>
+
+        <h2>YOUR NOTE</h2>
+
+        <p>Music • Learn • Play • Dream</p>
+
+        <p>© YOUR NOTE 2026 Sara Katan</p>
+
+        <a href="about.html">אודות</a>
+
+    </footer>
+
+</body>
+
+</html>
